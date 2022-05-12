@@ -8,6 +8,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/yair2/AndroidStudioProjects/SQLite_Android-Complete_Tutorial-master/app/src/main/res/drawable/edittext.xml" value="0.227" />
+        <entry key="..\:/Users/yair2/AndroidStudioProjects/SQLite_Android-Complete_Tutorial-master/app/src/main/res/layout/activity_add.xml" value="0.22327898550724637" />
+        <entry key="..\:/Users/yair2/AndroidStudioProjects/SQLite_Android-Complete_Tutorial-master/app/src/main/res/layout/activity_login.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/yair2/AndroidStudioProjects/SQLite_Android-Complete_Tutorial-master/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/yair2/AndroidStudioProjects/SQLite_Android-Complete_Tutorial-master/app/src/main/res/layout/activity_registrarse.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/yair2/AndroidStudioProjects/SQLite_Android-Complete_Tutorial-master/app/src/main/res/layout/activity_update.xml" value="0.25" />
+        <entry key="..\:/Users/yair2/AndroidStudioProjects/SQLite_Android-Complete_Tutorial-master/app/src/main/res/layout/my_row.xml" value="0.22327898550724637" />
         <entry key="..\:/Users/yair2/Desktop/SQLite_Android-Complete_Tutorial-master/app/src/main/res/drawable/ic_add.xml" value="0.227" />
         <entry key="..\:/Users/yair2/Desktop/SQLite_Android-Complete_Tutorial-master/app/src/main/res/layout/activity_add.xml" value="0.22916666666666666" />
         <entry key="..\:/Users/yair2/Desktop/SQLite_Android-Complete_Tutorial-master/app/src/main/res/layout/activity_main.xml" value="0.22916666666666666" />
@@ -16,7 +23,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

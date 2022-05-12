@@ -9,15 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.jovanovic.stefan.Semana_13_Grupo6.UpdateActivity"
-            android:parentActivityName="com.jovanovic.stefan.Semana_13_Grupo6.MainActivity"/>
         <activity
-            android:name="com.jovanovic.stefan.Semana_13_Grupo6.AddActivity"
+            android:name=".MainActivity"
+            android:label="Biblioteca de Libros"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AddActivity"
             android:label="Agregar Libro"
-            android:parentActivityName="com.jovanovic.stefan.Semana_13_Grupo6.MainActivity" />
+            android:parentActivityName=".MainActivity" />
         <activity
-            android:name="com.jovanovic.stefan.Semana_13_Grupo6.MainActivity"
-            android:label="Biblioteca de Libros">
+            android:name=".Registrarse">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />

@@ -15,6 +15,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.SearchView;
 import android.widget.TextView;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -22,6 +23,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
+    SearchView txtBuscar;
 
     RecyclerView recyclerView;
     FloatingActionButton add_button;
@@ -36,10 +38,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         recyclerView = findViewById(R.id.recyclerView);
         add_button = findViewById(R.id.add_button);
         empty_imageview = findViewById(R.id.empty_imageview);
+
         no_data = findViewById(R.id.no_data);
         add_button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -47,6 +49,8 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, AddActivity.class);
                 startActivity(intent);
             }
+
+
         });
 
         myDB = new MyDatabaseHelper(MainActivity.this);
@@ -54,7 +58,6 @@ public class MainActivity extends AppCompatActivity {
         book_title = new ArrayList<>();
         book_author = new ArrayList<>();
         book_pages = new ArrayList<>();
-
         storeDataInArrays();
 
         customAdapter = new CustomAdapter(MainActivity.this,this, book_id, book_title, book_author,
