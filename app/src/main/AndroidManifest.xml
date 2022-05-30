@@ -11,7 +11,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:label="Biblioteca de Libros"
+            android:label="Mi Biblioteca"
             android:exported="false" />
         <activity
             android:name=".Login"
